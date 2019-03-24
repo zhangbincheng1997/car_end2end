@@ -61,8 +61,8 @@ def telemetry(sid, data):
         # The current image from the center camera of the car
         imgString = data["image"]
         image = Image.open(BytesIO(base64.b64decode(imgString)))
-        
         image_array = np.asarray(image)
+
         image_array = image_array[40:140]
         image_array = cv2.resize(image_array, (200, 66))
         image_array = np.expand_dims(image_array, axis=0)
