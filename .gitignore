@@ -1,2 +1,4 @@
 *.h5
+*.ubuntu
+.ipynb_checkpoints
 */.ipynb_checkpoints
