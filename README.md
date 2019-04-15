@@ -7,7 +7,7 @@
 
 |  Model  |  Loss  |  Val Loss  |  Map  |
 |  -----  |  :----:  |  :----:  |  :----:  |
-| train         | <img src="train/loss.svg" width=256 height=256 />         | <img src="train/val_loss.svg" width=256 height=256 />         | ![alt text](train/overlay.gif) |
+| train-noraml  | <img src="train-normal/loss.svg" width=256 height=256 />  | <img src="train-normal/val_loss.svg" width=256 height=256 />  | ![alt text](train-normal/overlay.gif)  |
 | train-dropout | <img src="train-dropout/loss.svg" width=256 height=256 /> | <img src="train-dropout/val_loss.svg" width=256 height=256 /> | ![alt text](train-dropout/overlay.gif) |
 
 ## Fine Tune
