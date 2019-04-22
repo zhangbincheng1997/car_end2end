@@ -1,9 +1,7 @@
 # car_end2end
 
-## Nvidia Model
+## NVIDIA Model
 ![alt text](docs/nvidia.jpg)
-
-稳如狗......
 
 |  Model  |  Loss  |  Val Loss  |  Map  |
 |  -----  |  :----:  |  :----:  |  :----:  |
@@ -12,8 +10,6 @@
 
 ## Fine Tune
 ![alt text](docs/vgg.jpg)
-
-存在过拟合现象......
 
 |  Model  |  Loss  |  Val Loss  |  Map  |
 |  -----  |  :----:  |  :----:  |  :----:  |
