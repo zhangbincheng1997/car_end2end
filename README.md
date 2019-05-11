@@ -1,27 +1,23 @@
 # car_end2end
 
-## NVIDIA Model
-![alt text](docs/nvidia.jpg)
+## Model
 
-|  Model  |  Loss  |  Val Loss  |  Map  |
-|  -----  |  :----:  |  :----:  |  :----:  |
-| train-noraml  | <img src="train-normal/loss.svg" width=256 height=256 />  | <img src="train-normal/val_loss.svg" width=256 height=256 />  | ![alt text](train-normal/overlay.gif)  |
-| train-dropout | <img src="train-dropout/loss.svg" width=256 height=256 /> | <img src="train-dropout/val_loss.svg" width=256 height=256 /> | ![alt text](train-dropout/overlay.gif) |
+|  PilotNet  |  Ours    |
+|  -----     |  :----:  |
+| ![alt text](train-pilot/model.png) | ![alt text](train-ours/model.png) |
 
-## Fine Tune
-![alt text](docs/vgg.jpg)
+## Loss
 
-|  Model  |  Loss  |  Val Loss  |  Map  |
-|  -----  |  :----:  |  :----:  |  :----:  |
-| train-vgg16 | <img src="train-vgg16/loss.svg" width=256 height=256 /> | <img src="train-vgg16/val_loss.svg" width=256 height=256 /> | ![alt text](train-vgg16/overlay.gif) |
-| train-vgg19 | <img src="train-vgg19/loss.svg" width=256 height=256 /> | <img src="train-vgg19/val_loss.svg" width=256 height=256 /> | ![alt text](train-vgg19/overlay.gif) |
+|  Loss  |  Val Loss  |
+|  ----- |  :----:    |
+| ![alt text](docs/loss.png) | ![alt text](docs/val_loss.png) |
 
-## 失败场景
-|  Type  |  Image  |
-|  -----  |  :----:  |
-| 切着跑道 | ![alt text](docs/1.切着跑道.png) |
-| 压到跑道 | ![alt text](docs/2.压到跑道.png) |
-| 卡在跑道 | ![alt text](docs/3.卡在跑道.png) |
-| 冲出跑道 | ![alt text](docs/4.冲出跑道.png) |
-| 路线错误 | ![alt text](docs/5.路线错误.png) |
+
+## Visualization
+
+|  Model  |  Loss    |  Val Loss  |  Map     |
+|  -----  |  :----:  |  :----:    |  :----:  |
+| train-pilot | ![alt text](train-pilot/origin.gif) | ![alt text](train-pilot/heatmap.gif) | ![alt text](train-pilot/overlay.gif) |
+| train-ours  | ![alt text](train-ours/origin.gif)  | ![alt text](train-ours/heatmap.gif)  | ![alt text](train-ours/overlay.gif)  |
+
 
